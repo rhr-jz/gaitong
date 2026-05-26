@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ## 目录结构
 
 ```text
-gaitong/
+概统大作业/                 # 本地仓库根目录（GitHub 仓库名仍为 gaitong）
 ├── README.md              # 本文件
 ├── AGENTS.md              # 给 Cursor 等 AI 的协作约定
 ├── requirements.txt       # Python 依赖
@@ -96,7 +96,7 @@ gaitong/
 
 远程仓库目前只有简短 README；本地已有完整代码与数据。用 GitHub Desktop 时：
 
-1. **File → Add local repository**，选择本机文件夹：`概统大作业\原始资料`
+1. **File → Add local repository**，选择本机文件夹：`C:\Users\LENOVO\Desktop\概统大作业`
 2. **Repository → Repository settings**，确认远程为 `https://github.com/rhr-jz/gaitong.git`
 3. 先 **Fetch origin**，若提示 unrelated histories，选 **合并**；README 冲突时保留**本地完整版**
 4. 勾选变更 → Commit → **Push origin**
