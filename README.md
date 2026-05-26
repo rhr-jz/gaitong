@@ -83,10 +83,10 @@ pip install -r requirements.txt
 
 | 成员 | GitHub | 主要负责 |
 |------|--------|----------|
-| 组长 | [rhr-jz](https://github.com/rhr-jz) | 仓库创建、协调、总进度 |
-| A 同学 | （待填） | 数据预处理、探索性分析、目录与文档维护 |
-| （待填） | | 统计建模与推断 |
-| （待填） | | 报告撰写与排版 |
+| A | rhr | 仓库创建、协调、总进度 |
+| B |  | 数据预处理、探索性分析、目录与文档维护 |
+| C |  | 统计建模与推断 |
+| D | ljl | 报告撰写与排版 |
 
 分工变动请在 [Issues](https://github.com/rhr-jz/gaitong/issues) 更新。
 
