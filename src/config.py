@@ -2,7 +2,16 @@
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_DIR = ROOT / "data" / "raw"
+
+# UCI 解压后的各站点小时 CSV（仓库内 canonical 路径）
+UCI_DATA_DIR = ROOT / "data" / "beijing+multi+site+air+quality+data"
+HOURLY_DIR = (
+    UCI_DATA_DIR
+    / "PRSA2017_Data_20130301-20170228"
+    / "PRSA_Data_20130301-20170228"
+)
+RAW_DIR = HOURLY_DIR  # 兼容旧名；勿使用已 gitignore 的 data/raw/
+
 PROCESSED_DIR = ROOT / "data" / "processed"
 FIGURES_DIR = ROOT / "reports" / "figures"
 TABLES_DIR = ROOT / "reports" / "tables"

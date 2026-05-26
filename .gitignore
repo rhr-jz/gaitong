@@ -8,10 +8,13 @@ venv/
 # 与 data/beijing+multi+site+air+quality+data 重复的原始拷贝
 data/raw/
 
-# 本地生成物（提交前请确认是否需要纳入版本库）
-reports/figures/
-reports/tables/
-data/processed/
+# 本地生成物（保留空目录占位）
+reports/figures/*
+!reports/figures/.gitkeep
+reports/tables/*
+!reports/tables/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
 *.log
 
 # 系统与编辑器
