@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 与 data/beijing+multi+site+air+quality+data 重复的原始拷贝
+data/raw/
+
+# 本地生成物（提交前请确认是否需要纳入版本库）
+reports/figures/
+reports/tables/
+data/processed/
+*.log
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
