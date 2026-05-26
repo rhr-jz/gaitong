@@ -54,6 +54,8 @@ pip install -r requirements.txt
 
 利用 UCI [Beijing Multi-Site Air Quality Data](https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data)（2013–2017，北京 **12** 个监测站、小时分辨率），完成统计建模/推断，并保证**报告、代码、数据**可复现全部结果。
 
+**组员必读**：[课程与课题结合说明.pdf](reports/课程与课题结合说明.pdf)（讲义章节 ↔ 研究问题 ↔ 分工对照，约 5 分钟；[Markdown 源文件](reference/课程与课题结合说明.md)）
+
 ---
 
 ## 目录结构
@@ -71,6 +73,8 @@ pip install -r requirements.txt
 │   └── beijing+multi+site+air+quality+data/…/PRSA_Data_*.csv
 ├── reference/
 └── reports/
+    ├── 课程与课题结合说明.pdf   # 组员必读
+    ├── 项目计划书.pdf
     ├── figures/
     └── tables/
 ```
